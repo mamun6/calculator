@@ -3,19 +3,18 @@
     padding: 0;
 }
 
-h1 {
-    text-align: center;
-}
-
 .card {
     margin: 0 auto;
-    max-width: 340px;
-    height: 170px;
+    width: 350px;
+    height: 450px;
     text-align: center;
-    margin-top: 15px;
     box-shadow: 0 4px 8px 0;
     transition: 0.3s;
-    font-size: 0;
+    background-color: rgb(5, 41, 41);
+}
+
+.card h1 {
+    font-size: 50px;
 }
 
 .card:hover {
@@ -23,19 +22,19 @@ h1 {
 }
 
 .calc-head #result {
-    width: 305px;
-    height: 60px;
+    width: 310px;
+    height: 80px;
     font-size: 32;
     font-weight: bold;
     text-align: right;
-    padding: 0 5px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
 .btn {
-    width: 80px;
-    height: 70x;
-    font-size: 16;
+    width: 65px;
+    height: 55px;
+    font-size: 20;
     background-color: rgb(17, 14, 14);
     color: white;
 }
